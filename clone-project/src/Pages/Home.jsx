@@ -2,6 +2,9 @@ import React from 'react'
 import { Footer } from '../components/Footer';
 import './Home.module.css';
 import { Box } from '@chakra-ui/react';
+import MultipleItems from '../components/Trending';
+
+
 
 export const Home = () => {
   return (
@@ -31,8 +34,10 @@ export const Home = () => {
         </form>
         </Box>
         <br /><br />
-        
-        <Footer />
+        {/* <Trending /> */}
+       <MultipleItems />
+        {/* <SwipeToSlide /> */}
+        {/* <Footer /> */}
     </div>
   )
 }
